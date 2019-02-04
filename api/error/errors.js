@@ -1,0 +1,1 @@
+exports.err_code_500 = (err, res) => res.status(500).json({ error: err });
